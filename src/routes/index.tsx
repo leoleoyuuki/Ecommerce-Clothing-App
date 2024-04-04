@@ -1,18 +1,18 @@
 import { NavigationContainer } from "@react-navigation/native";
 import TabRoutes from "./tab.routes";
-import firebase, { initializeApp } from "firebase/app";
+import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
 export function Routes() {
-  const firebaseConfig = {
-    apiKey: "AIzaSyAcJQrLQRIdbKLuv5wr8oLd2WmUwDqIzcA",
-    authDomain: "ecommerceapp-95c3f.firebaseapp.com",
-    projectId: "ecommerceapp-95c3f",
-    storageBucket: "ecommerceapp-95c3f.appspot.com",
-    messagingSenderId: "963439822341",
-    appId: "1:963439822341:web:d5a3507b079cdd0a8c3e6c",
-    measurementId: "G-7WWVREL3LM",
-  };
+    const firebaseConfig = {
+        apiKey: "AIzaSyCxelBWI5Co-QkoTg7QeglfjaXr1p4x-4M",
+        authDomain: "ecommercefirebase-c779e.firebaseapp.com",
+        projectId: "ecommercefirebase-c779e",
+        storageBucket: "ecommercefirebase-c779e.appspot.com",
+        messagingSenderId: "1051679988161",
+        appId: "1:1051679988161:web:8f0986e2bef046bd1ff740",
+        measurementId: "G-Q5D40NYF10"
+      };
 
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
