@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "aulaNavegacao",
-    "slug": "aulaNavegacao",
+    "slug": "ecommerceclothing",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "72dcc6af-2be4-4a76-9f49-9a5ef3710168"
+      }
+    },
+    "owner": "leleoyuuki"
   }
 }
